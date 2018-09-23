@@ -1,0 +1,10 @@
+extends _layout/layout
+
+block variables
+	- var title = "Site"
+	- var bodyclass = "homepage"
+block body 
+	include _layout/header
+	main
+		include _pages/home
+	include _layout/footer
